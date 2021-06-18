@@ -1,0 +1,29 @@
+{
+  "name": "Player_Record_Server",
+  "description": "My submission for the following stutern task\r Create a simple express server running on port 3000.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesiweobi/PLAYER_RECORDS_SERVER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesiweobi/PLAYER_RECORDS_SERVER/issues"
+  },
+  "homepage": "https://github.com/jamesiweobi/PLAYER_RECORDS_SERVER#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2"
+  }
+}
